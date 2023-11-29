@@ -1,2 +1,15 @@
-# options-analytics-tool
-A Python-based tool for analyzing options data, calculating implied volatility, and visualizing the results. Uses ThetaData API for fetching options and stock data. Includes functions for retrieving option expirations, strikes, trades, and stock data, as well as calculating and visualizing implied volatility. 
+# Trading Data Analysis Tool
+
+## Overview
+This Python tool is designed for high-end discretionary traders. It leverages the ThetaData API to analyze historical option trades for a given underlying asset.
+
+## Features
+- Retrieve historical option trade and quote data.
+- Filter data by root ticker, expiration date, strike price, and date range.
+- Visualize and analyze option trades for strategic decision-making.
+
+## Prerequisites
+1. Obtain ThetaData API credentials.
+2. Install required Python packages:
+   ```bash
+   pip install pandas thetadata
